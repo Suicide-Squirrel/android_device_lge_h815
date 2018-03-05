@@ -24,7 +24,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 TARGET_OTA_ASSERT_DEVICE := g4,p1,ls991,f500,h810,h812,h815,h819,us991,vs986
 
 # Kernel
-TARGET_KERNEL_CONFIG := los_h815_defconfig
+TARGET_KERNEL_CONFIG := usu_h815_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h815/BoardConfigVendor.mk
