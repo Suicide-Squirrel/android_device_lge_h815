@@ -1,0 +1,8 @@
+[
+  {
+    "repository":  "device_lge_g4-common-LOS",
+    "target_path": "device/lge/g4-common",
+    "remote":      "suicide",
+    "branch":      "aicp-o"
+  }
+]
