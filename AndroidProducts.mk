@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_h815.mk
+    $(LOCAL_DIR)/aicp_h815.mk

@@ -1,5 +1,5 @@
-export ALLOW_MISSING_DEPENDENCIES=true
 export USE_NINJA=true
 
-add_lunch_combo lineage_h815-userdebug
-add_lunch_combo lineage_h815-eng
+add_lunch_combo aicp_h815-userdebug
+add_lunch_combo aicp_h815-user
+add_lunch_combo aicp_h815-eng
