@@ -27,13 +27,5 @@ PRODUCT_PACKAGES += \
     fstab.h815 \
     init.device.rc \
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml
-
-# Gps
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
-
 # common g4
 $(call inherit-product, device/lge/g4-common/g4.mk)
